@@ -1,12 +1,9 @@
-# EX_DynamicCards
+# Dynamic Cards
 
-Dynamic cards is an application in whcih you can create by writing text to the text area then clciking create.
-You can make as many as you'd like and when you are done with one simply hit the delete button and it's toast..
-Enjoy V.1 V.2 will be around sometime!
 
-##
-Used SASS for CSS
+## Instructions
 
-##
-functionality works well.
-still may need some styling
+1. Create an HTML page that contains a text area and a button labeled *Create*.
+1. When the user enters in text into the text area and then clicks the create button, create a new card element in the DOM. You decide the height/width of the card.
+1. When the user clicks the *Delete* button, the containing card, and no other cards, should then be removed from the DOM. Not just made invisible, actually [removed](https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild) from the DOM.
+
